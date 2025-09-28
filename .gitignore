@@ -1,0 +1,12 @@
+# コンパイルされたファイル
+*.class
+*.jar
+
+# IDEの設定ファイル (例: Eclipse)
+.classpath
+.project
+.settings/
+
+# IDEの設定ファイル (例: IntelliJ IDEA)
+.idea/
+*.iml
