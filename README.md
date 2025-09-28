@@ -2,9 +2,10 @@
 これは、Java Swingを使用して作成したシンプルなドローイングツールです。図形の描画、色の変更、ファイルの保存・読み込みなどの機能を備えています。
 
 動作環境
-Java Development Kit (JDK) 17 以上
+- Java Development Kit (JDK) 17 以上
+  - 開発および動作確認は OpenJDK 23.0.2 で行っています。
 
-make
+- make
 
 # 使い方
 1. リポジトリのクローン
