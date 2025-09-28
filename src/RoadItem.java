@@ -15,6 +15,7 @@ public class RoadItem extends JMenuItem {
     }
 
     class RoadActionListener implements ActionListener {
+        @SuppressWarnings("unchecked")
         public void actionPerformed(ActionEvent e) {
             try {
                 JFileChooser fc = new JFileChooser();

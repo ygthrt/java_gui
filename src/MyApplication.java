@@ -58,7 +58,7 @@ public class MyApplication extends JFrame {
         dashCheck.addItemListener(new DashCheckListener(stateManager));
         jp.add(dashCheck);
 
-        JComboBox ColorChoise = new JComboBox<ColorItem>();
+        JComboBox<ColorItem> ColorChoise = new JComboBox<ColorItem>();
         ColorChoise.addItem(new ColorItem(Color.WHITE));
         ColorChoise.addItem(new ColorItem(Color.RED));
         ColorChoise.addItem(new ColorItem(Color.GREEN));
@@ -68,7 +68,7 @@ public class MyApplication extends JFrame {
         ColorChoise.addActionListener(new ColorChoiseListener(canvas.mediator, ColorChoise));
         jp.add(ColorChoise);
 
-        JComboBox LineColorChoise = new JComboBox<ColorItem>();
+        JComboBox<LineColorItem> LineColorChoise = new JComboBox<LineColorItem>();
         LineColorChoise.addItem(new LineColorItem(Color.BLACK));
         LineColorChoise.addItem(new LineColorItem(Color.RED));
         LineColorChoise.addItem(new LineColorItem(Color.GREEN));
@@ -78,7 +78,7 @@ public class MyApplication extends JFrame {
         LineColorChoise.addActionListener(new LineColorChoiseListener(canvas.mediator, LineColorChoise));
         jp.add(LineColorChoise);
 
-        JComboBox LinewidthChoise = new JComboBox<ColorItem>();
+        JComboBox<Integer> LinewidthChoise = new JComboBox<Integer>();
         LinewidthChoise.addItem(1);
         LinewidthChoise.addItem(2);
         LinewidthChoise.addItem(3);

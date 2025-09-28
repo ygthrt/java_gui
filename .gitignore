@@ -10,3 +10,5 @@
 # IDEの設定ファイル (例: IntelliJ IDEA)
 .idea/
 *.iml
+
+.DS_Store
