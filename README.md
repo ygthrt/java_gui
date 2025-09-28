@@ -1,4 +1,4 @@
-#　Java GUI Drawing Tool
+# Java GUI Drawing Tool
 これは、授業でJava Swingを使用して作成したシンプルなドローイングツールです。
 
 図形の描画、色の変更、移動、削除、コピー等の操作、ファイルの保存・読み込みなどの機能を備えています。
